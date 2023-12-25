@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            background-color: rgb(223, 12, 117);
+        }
+
+        * {
+            color: white;
+        }
+
+      
+
+        h1 {
+            color: black;
+        }
+
+        h3 + p {
+            background-color: rgb(245, 142, 193);
+            font-size: medium;
+        }
+
+        h2 {
+            font-size: large;
+            font-weight: bold;
+        }
+    </style>
+    <title> UNIQUE ITEMS </title>
+
+    <img src="c:\Users\lenovo\Pictures\Cute shop interior.jpg" height="500px" wedth="500px">
+
+
+    <script>
+        
+
+            function toggleRecyclingSection() {
+        var recyclingSection = document.getElementById("recyclingSection");
+            if (recyclingSection.style.display === "none" || recyclingSection.style.display === "") {
+                recyclingSection.style.display = "block";
+        } else {
+                recyclingSection.style.display = "none";
+        }
+      }
+    
+
+    function validateForm() {
+    var username = document.getElementById("textbox1").value;
+    var password = document.getElementById("textbox2").value;
+    var email = document.getElementById("email1").value;
+
+    if (username === "" || password === "" || email === "") {
+    alert("Please fill in all fields.");
+    return false;
+    }
+
+
+
+    return true;
+    }
+    </script>
+
+
+</head>
+<body>
+    <nav>
+        <ul>
+            <li> <a href="#home"> Home</a> </li>
+            <li> <a href="#recycling" onclick="toggleRecyclingSection()"> Recycling Section</a> </li>
+            <li> <a href="#collections"> Collections</a> </li>
+            
+        </ul>
+    </nav>
+    <h1> WELCOME Chéri</h1>
+
+    <h3>INSPIRING FEMININE LUXURY </h3>
+    <p>
+        WE ARE HERE TO HELP YOU GETTING ELEGANT LOOKS Because WE HAVE ALL
+        THE ITEMS THAT YOU WILL NEED
+    </p>
+    <hr width="50%">
+
+    <div id="recyclingSection" style="display: none;">
+        <h2>OUR RECYCLING SECTION</h2>
+        <div>
+            <img src="C:/Users/lenovo/Pictures/DIY Overall jumpsuit from scratch - Step by step tutorial.jpg" height="400px" width="400px">
+            <img src="C:/Users/lenovo/Pictures/trish stitched.jpg" height="400px" width="400px">
+        </div>
+        <br>
+        <br>
+    </div>
+
+
+    <br>
+    <br>
+
+
+
+
+    <form action="" target="" method="">
+        <label for="textbox1"> USERNAME:</label>
+        <input id="textbox1" type="text" name="username" maxlength="20" placeholder="mariam" required />
+        <label for="textbox2"> PASSWORD:</label>
+        <input id="textbox2" type="password" name="6777" required />
+        <label for="email1">Email:</label>
+        <input id="email1" type="email" name="mail" placeholder="mariam@gmail.com" required />
+        <button type="submit"> submit</button>
+        <br>
+        <br>
+        <h2> collections </h2>
+        <img src="C:\Users\lenovo\Downloads\download (2).jpg" height="400px" width="400px" />
+        <img src="C:\Users\lenovo\Downloads\The best timeless designer bags #bags #trends #trends #fashion (5).jpg" height="400px" width="400px" />
+        <img src="C:\Users\lenovo\Downloads\Fundamental styles of a Capsule Shoe Wardrobe For Women.jpg" height="400px" width="400px" />
+        <br>
+        <br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </form>
+
+
+
+
+
+</body>
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
